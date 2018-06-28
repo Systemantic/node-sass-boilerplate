@@ -40,6 +40,10 @@ Great!! :ok_hand: now start you project and enjoying the live reload. No need fo
 $ npm start
 ```
 
+## References
+
+* [The Sass Guide lines](https://sass-guidelin.es/#architecture)
+
 ## Project Structure
 
 ```
