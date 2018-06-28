@@ -1,12 +1,12 @@
-# Systemantic Node Sass Boilerplate
+## Systemantic Node Sass Boilerplate
 
 At Systemantic we are solving problems and sharing the knowledge with our community. Here we present many projects as boilerplates that would help developers avoiding the headache of configuration and setting environments. Our boilerplates contain the latest Web technologies and dev tools.
 
 The Node.js Sass boilerplate project helps the Systemantic developers to create unified and structured projects using HTML5 and Sass language based on pure Node.js dev tools
 
-## Guide
+### Guide
 
-### Cloning the project
+#### Cloning the project
 
 First start by cloning the project on your workdir
 
@@ -14,7 +14,7 @@ First start by cloning the project on your workdir
  $ git clone git@github.com:Systemantic/node-sass-boilerplate.git
 ```
 
-### Remove the .git folder
+#### Remove the .git folder
 
 You need to remove the git folder and initiating a new one
 
@@ -24,7 +24,7 @@ $ rm -rm .git
 $ git init
 ```
 
-### Install dependencies
+#### Install dependencies
 
 Install the Node.js packages dependencies, by typing the following command.
 
@@ -32,7 +32,7 @@ Install the Node.js packages dependencies, by typing the following command.
 $ npm install
 ```
 
-### Start the project
+#### Start the project
 
 Great!! :ok_hand: now start you project and enjoying the live reload. No need for CMD+R to refresh your updates after each change.
 
@@ -40,11 +40,11 @@ Great!! :ok_hand: now start you project and enjoying the live reload. No need fo
 $ npm start
 ```
 
-## References
+### References
 
 * [The Sass Guide lines](https://sass-guidelin.es/#architecture)
 
-## Project Structure
+### Project Structure
 
 ```
 .
@@ -79,7 +79,7 @@ $ npm start
     └── vendors
 ```
 
-## License (MIT)
+### License (MIT)
 
 Copyright 2018-2019 Systemantic, https://github.com/Systemantic/node-sass-boilerplate
 
