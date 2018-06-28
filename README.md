@@ -6,8 +6,6 @@ The Node.js Sass boilerplate project helps the Systemantic developers to create 
 
 ## Guide
 
----
-
 ### Cloning the project
 
 First start by cloning the project on your workdir
@@ -44,8 +42,6 @@ $ npm start
 
 ## Project Structure
 
----
-
 ```
 .
 ├── README.md
@@ -80,8 +76,6 @@ $ npm start
 ```
 
 ## License (MIT)
-
----
 
 Copyright 2018-2019 Systemantic, https://github.com/Systemantic/node-sass-boilerplate
 
