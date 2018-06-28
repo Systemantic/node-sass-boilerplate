@@ -1,1 +1,14 @@
 // Typography rules
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,400,400i,500,500i,600,600i,700');
+
+h1, p {
+    font-family: Poppins;
+}
+
+p {
+    font-weight: 200;
+}
+
+.sourceCode {
+    color: $orange-color;
+}
