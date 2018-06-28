@@ -1,1 +1,8 @@
+title: Systemantic Node Sass Boilerplate
+logo: https://res.cloudinary.com/systemantic/image/upload/v1530192863/systemantic/systemantic%20logo/Jpeg%20Version/Systemantic_Logo_White.jpg
+description: The Node.js Sass boilerplate project helps the Systemantic developers to create unified and structured projects using HTML5 and Sass language based on pure Node.js dev tools
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
+exclude:
+  - index.html
