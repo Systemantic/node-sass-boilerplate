@@ -1,0 +1,34 @@
+{
+  "name": "systemantic-node-sass-boilerplate",
+  "version": "0.1.0",
+  "description": "Front Application using HTML and Sass boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080",
+    "build": "node-sass -w sass/main.scss build/style.css",
+    "precommit": "lint-staged",
+    "html": "htmllint *.html"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,scss}": [
+      "prettier --trailing-comma es5 --single-quote --tab-width 4 --write",
+      "git add"
+    ],
+    "*.html": ["js-beautify --max-preserve-newlines 0", "git add"]
+  },
+  "keywords": ["Sass", "HTML", "hot", "reload", "http-live", "node-sass"],
+  "author": "Lazhari Mohammed",
+  "license": "ISC",
+  "devDependencies": {
+    "html-beautifier": "0.0.10",
+    "husky": "0.14.3",
+    "js-beautify": "1.7.5",
+    "lint-staged": "7.0.0",
+    "live-server": "1.2.0",
+    "node-sass": "4.7.2",
+    "prettier": "1.11.1"
+  },
+  "dependencies": {
+    "htmllint": "0.7.2"
+  }
+}
