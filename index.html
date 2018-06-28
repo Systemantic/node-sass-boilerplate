@@ -10,16 +10,83 @@
 </head>
 
 <body>
-    <h1 class="hello">
-        Welcome to modern front end web design age!!
-    </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, praesentium vero. Deserunt rem excepturi beatae veritatis,
-        cum ex iusto molestias distinctio quibusdam nisi deleniti fuga amet aut, molestiae exercitationem ab.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </p>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/assets/brand/systemantic-solid.png" height="30" class="d-inline-block align-top" alt="">
+        </a>
+    </nav>
+
+    <div class="container">
+        <h1 class="title">Systemantic Node Sass Boilerplate</h1>
+
+        <p>At Systemantic we are solving problems and sharing the knowledge with our community. Here we present many projects
+            as boilerplates that would help developers avoiding the headache of configuration and setting environments. Our
+            boilerplates contain the latest Web technologies and dev tools.</p>
+        <p>The Node.js Sass boilerplate project helps the Systemantic developers to create unified and structured projects using
+            HTML5 and Sass language based on pure Node.js dev tools</p>
+        <h2 id="guide">Guide</h2>
+        <h3 id="cloning-the-project">Cloning the project</h3>
+        <p>First start by cloning the project on your workdir</p>
+        <pre class="sourceCode bash"><code class="sourceCode bash"> $ <span class="kw">git</span> clone git@github.com:Systemantic/node-sass-boilerplate.git</code></pre>
+        <h3 id="remove-the-.git-folder">Remove the .git folder</h3>
+        <p>You need to remove the git folder and initiating a new one</p>
+        <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">cd</span> node-sass-boilerplate
+$ <span class="kw">rm</span> -rm .git
+$ <span class="kw">git</span> init</code></pre>
+        <h3 id="install-dependencies">Install dependencies</h3>
+        <p>Install the Node.js packages dependencies, by typing the following command.</p>
+        <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">npm</span> install</code></pre>
+        <h3 id="start-the-project">Start the project</h3>
+        <p>Great!! :ok_hand: now start you project and enjoying the live reload. No need for CMD+R to refresh your updates after
+            each change.</p>
+        <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">npm</span> start</code></pre>
+        <h2 id="project-structure">Project Structure</h2>
+        <pre><code class="sourceCode">.
+├── README.md
+├── build // The build folder
+├── index.html // You home page
+├── package.json
+└── sass // Put your styles here
+    ├── abstracts
+    │   ├── _functions.scss
+    │   ├── _mixins.scss
+    │   ├── _placeholders.scss
+    │   └── _variables.scss
+    ├── base
+    │   ├── _reset.scss
+    │   └── _typography.scss
+    ├── components
+    │   ├── _buttons.scss
+    │   ├── _cover.scss
+    │   └── _dropdown.scss
+    ├── layout
+    │   ├── _footer.scss
+    │   ├── _forms.scss
+    │   ├── _grid.scss
+    │   ├── _header.scss
+    │   ├── _navigation.scss
+    │   └── _sidebar.scss
+    ├── main.scss
+    ├── pages
+    │   └── _home.scss
+    ├── themes
+    └── vendors</code></pre>
+        <h2 id="license-mit">License (MIT)</h2>
+        <p>Copyright 2018-2019 Systemantic, https://github.com/Systemantic/node-sass-boilerplate</p>
+        <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
+            files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the
+            rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
+            to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+        <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of
+            the Software.
+        </p>
+        <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+            TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+            THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+            CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+            IN THE SOFTWARE.</p>
+    </div>
+
 </body>
 
 </html>
