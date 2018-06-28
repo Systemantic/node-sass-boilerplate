@@ -4,3 +4,5 @@ description: The Node.js Sass boilerplate project helps the Systemantic develope
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+exclude:
+  - index.html
