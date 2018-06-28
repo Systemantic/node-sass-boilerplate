@@ -14,19 +14,29 @@
       "prettier --trailing-comma es5 --single-quote --tab-width 4 --write",
       "git add"
     ],
-    "*.html": ["js-beautify --max-preserve-newlines 0", "git add"]
+    "*.html": [
+      "js-beautify --max-preserve-newlines 0",
+      "git add"
+    ]
   },
-  "keywords": ["Sass", "HTML", "hot", "reload", "http-live", "node-sass"],
+  "keywords": [
+    "Sass",
+    "HTML",
+    "hot",
+    "reload",
+    "http-live",
+    "node-sass"
+  ],
   "author": "Lazhari Mohammed",
   "license": "ISC",
   "devDependencies": {
-    "html-beautifier": "0.0.10",
-    "husky": "0.14.3",
-    "js-beautify": "1.7.5",
-    "lint-staged": "7.0.0",
-    "live-server": "1.2.0",
-    "node-sass": "4.7.2",
-    "prettier": "1.11.1"
+    "html-beautifier": "^0.0.10",
+    "husky": "^0.14.3",
+    "js-beautify": "^1.7.5",
+    "lint-staged": "7.2.0",
+    "live-server": "^1.2.0",
+    "node-sass": "4.9.0",
+    "prettier": "1.13.6"
   },
   "dependencies": {
     "htmllint": "0.7.2"

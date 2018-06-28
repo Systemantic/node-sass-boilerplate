@@ -1,6 +1,6 @@
 # Systemantic Node Sass Boilerplate
 
-At Systemantic we are solving problems and sharing the knowledge with our community. Here we present many projects as boilerplates that would help developers avoiding the headache of configuration and setting environment. Our boilerplates contain the latest Web technologies and dev tools.
+At Systemantic we are solving problems and sharing the knowledge with our community. Here we present many projects as boilerplates that would help developers avoiding the headache of configuration and setting environments. Our boilerplates contain the latest Web technologies and dev tools.
 
 The Node.js Sass boilerplate project helps the Systemantic developers to create unified and structured projects using HTML5 and Sass language based on pure Node.js dev tools
 
