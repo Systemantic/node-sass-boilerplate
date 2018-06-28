@@ -1,4 +1,4 @@
-## Systemantic Node Sass Boilerplate
+# Systemantic Node Sass Boilerplate
 
 At Systemantic we are solving problems and sharing the knowledge with our community. Here we present many projects as boilerplates that would help developers avoiding the headache of configuration and setting environments. Our boilerplates contain the latest Web technologies and dev tools.
 
